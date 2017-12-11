@@ -1,8 +1,9 @@
 <html>
   <head>
     <title>2017-12-10 Share</title>
-    <link href="https://cdn.bootcss.com/reveal.js/3.6.0/css/reveal.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/reveal.js/3.6.0/css/theme/serif.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/reveal.js/3.6.0/css/reveal.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/reveal.js/3.6.0/css/theme/serif.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
@@ -33,8 +34,8 @@
             <h4>What's actually in HTML 5</h4>
           </section>
           <section>
-            New semantic tags</br>
-            <code>&lt;section&gt;, &lt;article&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;aside&gt;, &lt;mark&gt;, &lt;figure&gt;, &lt;figcaption&gt;, &lt;data&gt;, &lt;time&gt;, &lt;output&gt;, &lt;progress&gt;, &lt;meter&gt;, &lt;main&gt;</code>
+            New semantic tags</br></br>
+            <small><code>&lt;section&gt;, &lt;article&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;aside&gt;, &lt;mark&gt;, &lt;figure&gt;, &lt;figcaption&gt;, &lt;data&gt;, &lt;time&gt;, &lt;output&gt;, &lt;progress&gt;, &lt;meter&gt;, &lt;main&gt;</code></small>
           </section>
           <section>
             <ul>
@@ -72,7 +73,7 @@
         <section>
           <h3>ECMA Script 6</h3>
           <section>
-            <pre><code>
+            <pre class="javascript"><code>
   'uses strict';
   import { display } from 'lib';
   let arr = [2, 1, 3];
@@ -90,7 +91,7 @@
             </code></pre>
           </section>
           <section>
-            <pre><code>
+            <pre class="javascript"><code>
   class Rectangle {
     constructor(id, width = 20, height = 10) {
       this.id = id;
@@ -110,7 +111,7 @@
             </code></pre>
           </section>
           <section>
-            <pre><code>
+            <pre class="javascript"><code>
   let id = 3;
   $.get('/api/user/' + id, (user) => {
     $.get('/api/campus/' + user.campusId, (campus) => {
@@ -130,7 +131,7 @@
             </code></pre>
           </section>
           <section>
-            <pre><code>
+            <pre class="javascript"><code>
   let id = 3;
   let p = new Promise((resolve, reject) => {
     $.get(`/api/user/${id}`, (user) => {
@@ -210,7 +211,8 @@
       </div>
     </div>
   </body>
-  <script src="https://cdn.bootcss.com/reveal.js/3.6.0/js/reveal.js"></script>
-  <script src="https://cdn.bootcss.com/reveal.js/3.6.0/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.bootcss.com/reveal.js/3.6.0/js/reveal.min.js"></script>
+  <script src="https://cdn.bootcss.com/reveal.js/3.6.0/lib/js/head.min.js"></script>
+  <script src="https://cdn.bootcss.com/reveal.js/3.6.0/plugin/highlight/highlight.min.js"></script>
   <script src="main.js"></script>
 </html>

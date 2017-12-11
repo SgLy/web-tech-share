@@ -1,9 +1,12 @@
 .reveal pre>code {
-  max-height: unset;
+  max-height: 500px;
 }
 
-*:not(pre):not(code) {
+* {
   font-family: "Noto Serif CJK SC" !important;
+}
+pre *, code {
+  font-family: monospace !important;
 }
 
 div.button {
