@@ -1,4 +1,4 @@
-A brief ~~and naive~~ share on some new Web technologies, for SYSU Microsoft Club. This is the slides used in the share, only presenting brief outlines and code examples.
+A brief ~~and naive~~ share on some new Web technologies, for SYSU Microsoft Student Club. This is the slides used in the share, only presenting brief outlines and code examples.
 
 _December 10th, 2017 @ B402_
 
